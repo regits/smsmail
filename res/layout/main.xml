@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+	<TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Sender gmail address, The mail will send from this mailbox."></TextView>
+	<EditText  
+	    android:id="@+id/textfrom"    
+	    android:layout_width="fill_parent"   
+	    android:layout_height="wrap_content"   
+		android:hint="From gmail addr"
+	    android:text=""/>  
+
+	<TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Sender gmail password, app need this then can send email."></TextView>
+	<EditText  
+	    android:id="@+id/textpassword"    
+	    android:layout_width="fill_parent"   
+	    android:layout_height="wrap_content"   
+		android:hint="Sender gmail password"
+		android:password="true"
+	    android:text=""/>  
+
+	<TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Mail sendto address."></TextView>
+	<EditText  
+	    android:id="@+id/textto"    
+	    android:layout_width="fill_parent"   
+	    android:layout_height="wrap_content"   
+		android:hint="To gmail addr"
+	    android:text=""/>  
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:orientation="horizontal" 
+	>
+	<Button   
+	    android:id="@+id/btn_start"  
+		android:text="start"  
+		android:layout_width="wrap_content"  
+		android:layout_height="wrap_content"/>  
+	<Button   
+	    android:id="@+id/btn_stop"  
+		android:text="stop"  
+		android:layout_width="wrap_content"  
+		android:layout_height="wrap_content"/>  
+</LinearLayout>
+
+	<TextView    
+		android:id="@+id/msg"
+	    android:layout_width="fill_parent"   
+		android:layout_height="wrap_content"  
+	/>
+</LinearLayout>
+
